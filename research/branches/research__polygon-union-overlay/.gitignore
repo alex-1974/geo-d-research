@@ -1,0 +1,21 @@
+.dub/
+dub.selections.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+docs.json
+__dummy.html
+patch/
+
+# DUB test executables
+geo-d-test-*
+
+# Local d-geospatial-workspace context
+.workspace/
+
+/build/
